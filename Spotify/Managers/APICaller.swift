@@ -33,6 +33,7 @@ final class APICaller {
                 do {
                     let res = try JSONDecoder().decode(UserProfile.self, from: data)
                     print(res)
+                    completion(.success(res))
                 } catch {
                     print(error.localizedDescription)
                     completion(.failure(error))
