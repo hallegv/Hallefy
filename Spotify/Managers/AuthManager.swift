@@ -13,8 +13,8 @@ final class AuthManager {
     private var refreshingToken: Bool = false
     
     struct Constants {
-        static let clientID = "3e366004f2514d5da00ddbca180da565"
-        static let clientSecret = "5da1d054ad4f469eab38747f8e46ec64"
+        static let clientID = ProcessInfo.processInfo.environment["CLIENT_ID"] ?? ""
+        static let clientSecret = ProcessInfo.processInfo.environment["CLIENT_SECRET"] ?? ""
         static let tokenAPIURL = "https://accounts.spotify.com/api/token"
         static let redirectURI = "https://www.github.com/hallegv"
         static let scopes = "user-read-private%20playlist-modify-public%20playlist-read-private%20playlist-modify-private%20user-library-modify%20user-library-read%20user-read-email"

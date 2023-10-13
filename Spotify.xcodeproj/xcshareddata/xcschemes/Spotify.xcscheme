@@ -75,6 +75,16 @@
       </BuildableProductRunnable>
       <EnvironmentVariables>
          <EnvironmentVariable
+            key = "CLIENT_ID"
+            value = "3e366004f2514d5da00ddbca180da565"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "CLIENT_SECRET"
+            value = "5da1d054ad4f469eab38747f8e46ec64"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
             key = "OS_ACTIVITY_MODE"
             value = "disable"
             isEnabled = "YES">
