@@ -36,6 +36,7 @@
 		C4BCA7222AAA942900F9340E /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA7212AAA942900F9340E /* UserProfile.swift */; };
 		C4BCA7242AAA9C8200F9340E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA7232AAA9C8200F9340E /* Extensions.swift */; };
 		C4D52E8D2AD9E5E40028A1BF /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D52E8C2AD9E5E40028A1BF /* AuthResponse.swift */; };
+		C4D52E8F2ADA03240028A1BF /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D52E8E2ADA03240028A1BF /* SettingsModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		C4BCA7212AAA942900F9340E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		C4BCA7232AAA9C8200F9340E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C4D52E8C2AD9E5E40028A1BF /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		C4D52E8E2ADA03240028A1BF /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				C4BCA71F2AAA941600F9340E /* Artist.swift */,
 				C4BCA7212AAA942900F9340E /* UserProfile.swift */,
 				C4D52E8C2AD9E5E40028A1BF /* AuthResponse.swift */,
+				C4D52E8E2ADA03240028A1BF /* SettingsModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				C4BCA7242AAA9C8200F9340E /* Extensions.swift in Sources */,
 				C4BCA7042AAA933300F9340E /* LibraryViewController.swift in Sources */,
 				C4BCA7202AAA941600F9340E /* Artist.swift in Sources */,
+				C4D52E8F2ADA03240028A1BF /* SettingsModels.swift in Sources */,
 				C4BCA7122AAA93A000F9340E /* PlaylistViewController.swift in Sources */,
 				C4BCA6CA2AAA902A00F9340E /* SceneDelegate.swift in Sources */,
 				C4BCA7102AAA939300F9340E /* PlayerViewController.swift in Sources */,
