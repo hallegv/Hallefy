@@ -7,10 +7,6 @@
 
 import Foundation
 
-struct UserImage: Codable {
-    let url: String
-}
-
 struct UserProfile: Codable {
     let country: String
     let display_name: String
@@ -18,6 +14,6 @@ struct UserProfile: Codable {
     let explicit_content: [String: Bool]
     let external_urls: [String: String]
     let id: String
-    let images: [UserImage]
+    let images: [APIImage]
     let product: String
 }
