@@ -71,7 +71,7 @@ class HomeViewController: UIViewController {
                 APICaller.shared.getRecommendations(genres: seeds) { _ in
                     
                 }
-            case .failure(let error): break
+            case .failure: break
             }
         }
     }
